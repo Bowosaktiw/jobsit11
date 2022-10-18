@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:paddingBottom="100sp"
+            android:layout_margin="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACTIVITY 2"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#fff"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10sp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120sp"
+            android:background="@color/purple_500"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120sp"
+            android:background="@color/purple_500"
+            android:layout_gravity="end"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120sp"
+            android:layout_gravity="center"
+            android:background="@color/purple_500" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:paddingBottom="100sp"
+            android:layout_margin="10sp"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>
